@@ -4,13 +4,13 @@
     "dev": {
       "cache": false
     },
-    "build" : {
+    "build": {
       "outputs": [
         "dist/**",
         "storybook-static/**"
       ],
       "dependsOn": [
-        "ˆbuild"
+        "^build"
       ]
     }
   }

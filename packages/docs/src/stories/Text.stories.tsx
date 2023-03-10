@@ -2,11 +2,12 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Text, TextProps } from '@ignite-ui/react'
 
 export default {
-  title: 'Surfaces/Text',
+  title: 'Typography/Text',
   component: Text,
   args: {
-    children: 'Testando o elemento Text',
     size: 'md',
+    children:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
   },
   argTypes: {
     size: {
@@ -34,9 +35,9 @@ export default {
 
 export const Primary: StoryObj<TextProps> = {}
 
-export const StrongText: StoryObj<TextProps> = {
+export const CustomTag: StoryObj<TextProps> = {
   args: {
-    children: 'Strong Text',
+    children: 'Strong text',
     as: 'strong',
   },
 }
