@@ -9,7 +9,7 @@ export function Avatar(props: AvatarProps) {
     <AvatarContainer>
       <AvatarImage {...props} />
 
-      <AvatarFallback delayMs={600}>
+      <AvatarFallback delayMs={700}>
         <User />
       </AvatarFallback>
     </AvatarContainer>
